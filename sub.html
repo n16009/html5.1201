@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
  <head>
-  <link href="css/common.css" rel="stylesheet" type="text/css" media="all">
   <meta charset="UTF-8">
   <title>タイトルをつけてみた!</title>
   <!--[if lt IE 9]>
@@ -10,6 +9,7 @@
   <style type="text/css">
   p {color: #666;
      width:500px;}
+  /* ここがCSSのコメント */
   div {color: #666666;
        width: 500px;
        margin-top:20px;
@@ -18,13 +18,18 @@
   span {color:#009900;}
   h1 {color:#006600;
        font-size:30px;}
-  h2{font-size: 110%;
-      border-top:solid 1px #ccc;
-      margin-top:50px;}
-  img {float:left
-        margin-right:20px;}
+  img {float:left;
+        margin-right:20px;
+        border-style: none;}
+  a {font-size: 150%;
+     font-weight: bold;
+     color: #FF6666;
+     text-decoration: none;}
+  a:hover {color: #9900FF;
+            text-decoration: underline;
+            font-style: italic;}
   p#goto-profile a {
-    background: url(image/101031_btn2.gif) no-repeat left top;
+    background: url(../image/101031_btn2.gif) no-repeat left top;
     width: 140px;
     height: 36px;
     display: block;
@@ -34,7 +39,34 @@
     text-align: center;
   }
   p#goto-profile a:hover{
-    background: url(image/101031_btn2_1.gif) no-repeat right top;
+    background: url(../image/101031_btn2_1.gif) no-repeat right top;
+  }
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #666;
+    font-family:Arial, sans-serif;
+    line-height: 18px;
+  }
+  #container {
+    width: 600px;
+    margin: 0px auto;
+    padding: 30px;
+  }
+   header {
+    padding: 30px;
+    color: #FFF;
+  }
+   h1 {
+    font-weight: bold;
+    font-size: 240%;
+  }
+  footer {
+    font: bold 80%/1em Arial, Helvetica, sans-serif;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
   }
   </style>
  </head>
