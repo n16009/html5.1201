@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="ja">
  <head>
+  <link href="css/common.css" rel="stylesheet" type="text/css" media="all">
   <meta charset="UTF-8">
   <title>タイトルをつけてみた!</title>
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  <style>
+  <style type="text/css">
   p {color: #666;
      width:500px;}
   div {color: #666666;
@@ -27,6 +28,19 @@
   a:hover {color: #9900FF;
             text-decoration: underline;
             font-style: italic;}
+  p#goto-profile a {
+    background: url(image/11-5_btn2.gif) no-repeat left top;
+    width: 140px;
+    height: 36px;
+    display: block;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 36px;
+    text-align: center;
+  }
+  p#goto-profile a:hover{
+    background: url(image/101031_btn2.gif) no-repeat right top;
+  }
   </style>
  </head>
  <body>
@@ -45,7 +59,7 @@
     <p>
      <a href="sub.html">次のページヘ</a>
     </p>
-    <p>
+    <p id="goto-profile">
      <a href="sub.html#profile"><img src="image/101031_btn.gif" alt="作者の紹介"></a>
     </p>
      (島崎藤村「夜明け前」序の章より)
