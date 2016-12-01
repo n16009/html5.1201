@@ -35,6 +35,13 @@
   }
   p#goto-profile a:hover{
     background: url(../image/101031_btn2_1.gif) no-repeat right top;
+    width: 140px;
+    height: 36px;
+    display: block;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 36px;
+    text-align: center;
   }
   body {
     width: 100%;
